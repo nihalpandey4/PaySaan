@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  border: 0;
+
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(117, 113, 124, 0.5)
+    ),
+    url(../images/Farmer.jpeg);
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  margin-top: 25px;
+  list-style-type: none;
+  float: right;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  transition: 0.6s ease;
+}
+
+ul li a:hover {
+  background-color: #38d39f;
+  color: black;
+}
+
+ul li.login a {
+  background-color: #38d39f;
+  color: #000;
+}
+/* 
+.logo img{
+  float: left;
+  padding: 20px;
+  width: 110px;
+  height: 80px;
+} */
+
+.main {
+  max-width: 1500px;
+}
+
+.title {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1 {
+  color: #38d39f;
+  font-size: 40px;
+  padding: 10px;
+  border-style: groove;
+  margin-bottom: 15px;
+}
+
+.title p {
+  color: #fff;
+  font-size: 20px;
+}
+
+section h1 {
+  padding: 3% 15px 7px 15px;
+  text-align: center;
+  font-size: 50px;
+}
+
+section p {
+  padding: 10px 10px 20px 15px;
+  margin: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* T R B L */
