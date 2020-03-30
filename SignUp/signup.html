@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" type="text/css" href="../login/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <img class="wave" src="../login/img/wave.png">
+    <div id="back">
+        <a href="../home.html"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+    </div>
+    <div class="container">
+        <div class="img">
+            <img src="../login/img/bg.svg">
+        </div>
+        <div id="toggle" class="login-content">
+            <form action="index.html">
+                <img src="../login/img/avatar.svg">
+                <h2 class="title">Sign Up</h2>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Username</h5>
+                        <input type="text" class="input" name="Username" required>
+                    </div>
+                </div>
+                <div class="input-div email">
+                    <div class="i">
+                        <i class="fas fa-mobile"></i>
+                    </div>
+                    <div class="div">
+                        <h5 id='mobile'>Enter your mobile number</h5>
+                        <input type="tel" class="input" name="mobile" required>
+                    </div>
+                </div>
+                <div class="input-div email">
+                    <div class="i">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="div">
+                        <h5  id='email'>Enter your email</h5>
+                        <input type="email" class="input" name="email" required>
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5 id="phone-password">Password</h5>
+                        <input type="password" class="input" name="Password" id="Password" required>
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5 id="phone-password">Retype Password</h5>
+                        <input type="password" class="input" name="confirm_Password" id="confirm_Password" required>
+                    </div>
+                </div>
+                <input type="file" id="real-file" hidden="hidden" />
+                <button type="button" id="custom-button">CLICK TO CHOOSE</button>
+                <span id="custom-text">Upload a document for address verification.</span>
+                <input type="submit" class="btn" value="Sign Up">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+
+</html>
